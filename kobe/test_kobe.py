@@ -727,3 +727,5 @@ for i in range(len(sample)):
 	sample.iloc[i,1] = pre_proba_test[i][1]
 
 sample.to_csv('F:\\kaggle_kobe\\test_submission.csv')
+print('finished !')
+#finished !
